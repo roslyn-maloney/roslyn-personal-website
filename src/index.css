@@ -1,10 +1,13 @@
-body {
+html, body, #root {
+  height: 100%; /* Full screen height */
   margin: 0;
+  background-color: #FEF6EA;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {

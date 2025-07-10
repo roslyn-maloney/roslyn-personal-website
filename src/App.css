@@ -36,3 +36,124 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-color: #DB8780;
+  height: 88px;
+}
+
+.logo{
+  padding: 50px;
+}
+
+.nav-links {
+  font-size: x-large;
+  padding-right: 50px;
+}
+
+
+
+
+
+.hero-img{
+  top: 53%;      /* Moves image 50% from the top of the screen */
+  left: 50%;     /* Moves image 50% from the left of the screen */
+  transform: translate(-50%, -50%); 
+  position: absolute;
+}
+
+.hero-intro{
+  top: 50%;                /* Move the text down to the middle vertically */
+  left: 50%;               /* Move the text to the middle horizontally */
+  transform: translate(-50%, -50%); /* Offset the position to truly center it */
+  text-align: center;      /* Center text horizontally */
+  color: #26161F;  
+  position: absolute;  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero {
+  animation: fadeIn 1.5s ease-out;
+  position: relative;   /* So absolute children are positioned inside */
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+.about-title {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.about-para{
+  font-size: 25px;
+}
+
+
+
+
+
+.divider-one{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.project-title{
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.project-cards{
+  gap: 150px;
+  padding-top: 50px;
+}
+
+.project-cards .btn{
+  height: 350px;
+  width: 350px;
+  background-color: rgba(219, 135, 128, 0.5);
+  border: none;
+  font-size: 36px;
+  color: black;
+}
+
+.project-cards .btn:hover{
+  background-color: rgba(219, 135, 128);
+}
+
+.divider-two{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+.skills-row{
+  gap:150px
+}
+

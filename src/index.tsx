@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'bootstrap/dist/css/bootstrap.min.css';       // Required for styling
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // Optional but needed for dropdowns/tooltips/popovers
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
