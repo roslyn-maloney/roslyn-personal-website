@@ -4,6 +4,8 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Certificate from "./Certificate";
+import Connect from "./Connect";
 
 function Home() {
     return (
@@ -14,6 +16,8 @@ function Home() {
                 <AboutMe />
                 <Projects/>
                 <Skills/>
+                <Certificate/>
+                <Connect/>
             </div>
         </Stack>
     );
