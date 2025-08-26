@@ -1,9 +1,25 @@
 import Logo from "../Assets/Logo.svg";
 import { Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 
-function NavBar() {
+
+type SectionRef = React.RefObject<HTMLDivElement | null>;
+
+type NavBarProps = {
+    scrollTo: (ref: SectionRef) => void;
+    refs: {
+        aboutRef: SectionRef;
+        projectsRef: SectionRef;
+        skillsRef: SectionRef;
+        certificateRef: SectionRef;
+        contactRef: SectionRef;
+    };
+};
+
+
+function NavBar({ scrollTo, refs }: NavBarProps) {
+    const navigate = useNavigate();
     return (<>
         <Navbar className="shadow" fixed="top">
             <div>
@@ -12,13 +28,13 @@ function NavBar() {
                 </Navbar.Brand>
             </div>
             <div className="container-fluid">
-                <div className="nav-links d-flex justify-content-end w-100">
-                    <Link to="/Home" className="text-black text-decoration-none">Home</Link>
-                    <Link to="/AboutMe" className="text-black text-decoration-none ms-5">About Me</Link>
-                    <Link to="/Projets" className="text-black text-decoration-none ms-5">Projects</Link>
-                    <Link to="/Skills" className="text-black text-decoration-none ms-5">Skills</Link>
-                    <Link to="/Certificates" className="text-black text-decoration-none ms-5">Certificated</Link>
-                    <Link to="/Connect" className="text-black text-decoration-none ms-5">Connect</Link>
+                <div className="nav-buttons d-flex justify-content-end w-100 fs-4">
+                    <button onClick={() => navigate("/Home")} className="btn text-black">Home</button>
+                    <button className="btn text-black text-decoration-none" onClick={() => scrollTo(refs.aboutRef)}>About Me</button>
+                    <button className="btn text-black text-decoration-none" onClick={() => scrollTo(refs.projectsRef)}>Projects</button>
+                    <button className="btn text-black text-decoration-none" onClick={() => scrollTo(refs.skillsRef)}>Skills</button>
+                    <button className="btn text-black text-decoration-none" onClick={() => scrollTo(refs.certificateRef)}>Certificates</button>
+                    <button className="btn text-black text-decoration-none" onClick={() => scrollTo(refs.contactRef)}>Connect</button>
                 </div>
             </div>
         </Navbar>

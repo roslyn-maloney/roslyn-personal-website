@@ -37,6 +37,8 @@
   }
 }
 
+
+
 .navbar {
   background-color: #DB8780;
   height: 88px;
@@ -46,11 +48,14 @@
   padding: 50px;
 }
 
-.nav-links {
+.nav-buttons button{
   font-size: x-large;
-  padding-right: 50px;
 }
 
+.nav-buttons button:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px #00000050;
+}
 
 
 
@@ -249,4 +254,10 @@
   padding-bottom: 10px;
 }
 
+#projects {
+  scroll-margin-top: 80px; /* Adjust based on your navbar height */
+}
 
+html {
+  scroll-behavior: smooth;
+}
