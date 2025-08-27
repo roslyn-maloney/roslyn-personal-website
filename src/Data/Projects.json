@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "Medvault",
+        "name": "Medvault",
+        "image": "/Assets/MedVault.png",
+        "language": "HTML, CSS",
+        "framework": "React Bootstrap, MongoDB",
+        "figma": "https://www.figma.com/design/2dmxep7Y5Yl2hF7fu8zGvq/Vital-Hacks?node-id=57-11&t=ItkdOAgyeWFFAPYS-1",
+        "github" : "https://github.com/IsabellaB876/vital-hacks.git",
+        "description": "MedVault is a web platform designed to streamline document management for users in the medical field, including both doctors and patients. Doctors can securely request medical documents from their patients, who in turn can easily upload and submit the necessary files directly through the platform.", 
+        "problem": "",
+        "key_features": "",
+        "challenges": "",
+        "development": ""
+    },
+    {
+        "_id": "Cornish",
+        "name": "Cornish Commons",
+        "image": "",
+        "language": "None",
+        "framework": "Figma",
+        "figma": "",
+        "github" : "None",
+        "description": "", 
+        "problem": "",
+        "key_features": "",
+        "challenges": "",
+        "development": ""
+    },
+    {
+        "_id": "Eventura",
+        "name": "Eventura",
+        "image": "",
+        "language": "None",
+        "framework": "Figma",
+        "figma": "",
+        "github" : "None",
+        "description": "", 
+        "problem": "",
+        "key_features": "",
+        "challenges": "",
+        "development": ""
+    }
+]
