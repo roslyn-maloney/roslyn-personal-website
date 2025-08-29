@@ -14,7 +14,6 @@ function App() {
           <Route path="/" element={<Navigate to="/Home" />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Project/:pid" element={<ProjectPage />} />
-
         </Routes>
       </div>
     </HashRouter>

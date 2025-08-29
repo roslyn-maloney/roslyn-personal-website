@@ -2,16 +2,16 @@
     {
         "_id": "Medvault",
         "name": "Medvault",
-        "image": "/Assets/MedVault.png",
+        "image": "MedVault.png",
         "language": "HTML, CSS",
         "framework": "React Bootstrap, MongoDB",
         "figma": "https://www.figma.com/design/2dmxep7Y5Yl2hF7fu8zGvq/Vital-Hacks?node-id=57-11&t=ItkdOAgyeWFFAPYS-1",
         "github" : "https://github.com/IsabellaB876/vital-hacks.git",
         "description": "MedVault is a web platform designed to streamline document management for users in the medical field, including both doctors and patients. Doctors can securely request medical documents from their patients, who in turn can easily upload and submit the necessary files directly through the platform.", 
-        "problem": "",
-        "key_features": "",
-        "challenges": "",
-        "development": ""
+        "problem": "The problem this website aims to solve is the challenge of file organization and timely document submission within the medical field. Patients often struggle to understand which documents are required by their doctors and may submit important files late or not at all. This platform is designed to streamline the submission process, ensuring that critical medical documents are organized and submitted to healthcare providers on time.",
+        "key_features": "When a patient uploads and submits a medical document, the AI system verifies whether all required fields have been properly filled out. If any fields are missing, an error message is displayed, clearly indicating which specific fields need attention. If the document is complete, the AI confirms successful submission. Additionally, if the patient accidentally uploads the wrong document, the AI detects the error and notifies the user, prompting them to upload the correct one.",
+        "challenges": "One of the main challenges we faced during this project was coordinating a time when the entire team could work together. Since the project spanned both the spring and summer semesters, it became especially difficult to collaborate over the summer, as many team members were in different states or countries, often across various time zones. Despite these obstacles, our team remained committed. We communicated effectively through FaceTime calls and shared detailed notes to ensure everyone stayed on track, regardless of location. Another significant challenge was working with a new framework. Prior to this project, I had only developed using standard React applications. However, this website was built using React Bootstrap, which introduced a different approach. Unlike plain React, Bootstrap provides pre-built components that simplify UI development. For example, when building the document upload feature for patients, we used a dropdown menu—a component already available in Bootstrap. Initially, I spent time manually creating components from scratch, only to later realize that Bootstrap offered built-in solutions. This led to some unnecessary delays, but it was a valuable learning experience in understanding how to use frameworks more efficiently.",
+        "development": "Deveopment is aways in progress"
     },
     {
         "_id": "Cornish",
